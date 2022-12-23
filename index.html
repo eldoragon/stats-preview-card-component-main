@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <!-- STYLE CSS -->
+  <link rel="stylesheet" href="style.css">
+  <!-- GOOGLE FONT -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&display=swap" rel="stylesheet">
+
+  <title>Frontend Mentor | Stats preview card component</title>
+  
+</head>
+  <body> 
+    <main>
+      <article class="statsprev__container">
+
+        <picture class="statsprev__img">
+          <source media="(min-width:700px)" 
+          srcset="images/image-header-desktop.jpg">
+          <img src="images/image-header-mobile.jpg" alt="" >
+        </picture>
+        
+        <div class="statsprev__content">
+          <h1 class="statsprev__header">Get <span class="statsprev__header-word">insights</span> that help your business grow.</h1>
+          <p class="statsprev_p">
+            Discover the benefits of data analytics and make better decisions regarding revenue, customer
+            experience, and overall efficiency.
+          </p>
+          <div class="statsprev__flex-container">
+            <div class="statsprev__flex-group">
+              <div>
+                <div class="statsprev__numbers">10k+</div>
+                <p class="statsprev__details">companies</p>
+              </div>
+              <div>
+                <div class="statsprev__numbers">314</div>
+                <p class="statsprev__details">templates</p>
+              </div>
+              <div>
+                <div class="statsprev__numbers">12m+</div>
+                <p class="statsprev__details">queries</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </article>
+    </main>
+  </body>
+</html>
